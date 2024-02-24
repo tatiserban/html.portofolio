@@ -1,0 +1,237 @@
+* {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container-page {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+
+    background: rgba(34, 34, 34, 1);
+    height: 70px;
+}
+
+.logo {
+    width: 44px;
+    height: 38px;
+    margin-right: 50px;
+}
+
+/* .top-box{
+      padding-bottom: 65px;
+  } */
+.search-pic {
+    width: 28px;
+    height: 30px;
+    margin: 0;
+}
+
+.search {
+    display: flex;
+    /* background: #2f3640; */
+    /* height: 20px; */
+    border-radius: 40px;
+    padding: 10px;
+    top: 10px;
+
+}
+
+.search-button {
+    height: 30px;
+    border-radius: 50%;
+    /* background: #2f3640;  */
+    display: flex;
+    justify-content: center;
+    transition: 0.4s;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.search-button>i {
+    font-size: 30px;
+}
+
+.search:hover>.searchText {
+    width: 250px;
+    padding: 0 6px;
+
+}
+
+.searchText {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: #ffffff;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 20px;
+    width: 0;
+    font-weight: bold;
+}
+
+.menu-btn {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+/* .menu-link{
+      padding-top: 4px;
+  } */
+.menu-right {
+    width: 350px;
+    /* right: auto; */
+}
+
+.menu-left,
+.menu-right {
+    display: flex;
+    /* padding-top: 20px;
+      padding-bottom: 20px; */
+    align-items: center;
+}
+
+
+
+.banner {
+    background-color: rgba(248, 243, 244, 1);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.banner-txt {
+    color: rgba(241, 109, 127, 1);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+}
+
+.registration-info {
+    margin: 64px 90px 0 0;
+    line-height: 35px;
+}
+
+.registration-form {
+    height: 44px;
+    margin-bottom: 21px;
+}
+
+.registration-form-txt,
+.registration-txt {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #222222;
+}
+
+.registration-page {
+    display: flex;
+}
+
+.registration-info,
+.joining-benefits {
+    width: 350px;
+}
+
+.choose-male {
+    display: flex;
+}
+
+.choose-female {
+    display: flex;
+}
+
+.choose-gender {
+    display: inline-flex;
+    width: 135px;
+    margin-left: -10px;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 14px;
+    color: #000000;
+}
+
+.choose-gender input {
+    margin-top: 10px;
+}
+
+.joining-benefits {
+    margin-top: 64px;
+}
+
+.join-txt {
+    list-style-type: none;
+}
+
+.joining-title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 49px;
+    color: #000000;
+}
+
+.our-program {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000000;
+    width: 380px;
+}
+
+.benefits-list {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.list-simbol {
+    margin-right: 10px;
+}
+
+.password-info {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+
+    color: #B1B1B1;
+
+}
+
+.join-us-btn {
+    width: 165px;
+    height: 50px;
+    color: #ffffff;
+    background-color: rgba(241, 109, 127, 1);
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 96px;
+}
+
+.join-us-btn:hover {
+    border-radius: 10px;
+    color: red;
+    background-color: #B1B1B1;
+}
